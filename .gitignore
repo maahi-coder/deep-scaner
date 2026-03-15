@@ -1,0 +1,45 @@
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+.venv/
+venv/
+env/
+ENV/
+
+# ── Trained Model Files (large) ────────────────────────────────
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.tflite
+saved_model/
+
+# ── Dataset / Archive (very large) ─────────────────────────────
+backend/archive/
+archive/
+dataset/
+data/
+
+# ── Node.js / Frontend ─────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── OS & Editor ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Logs ───────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Temp files ─────────────────────────────────────────────────
+temp_*
+*.tmp
